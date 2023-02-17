@@ -1,0 +1,18 @@
+                     /*         HEADER          */
+
+header {      
+    border-bottom: 1px solid black;
+}
+
+#navigation a:hover {
+    color: #66ccff !important;
+}
+
+#navigation a:active {
+    color: #006699 !important;
+}
+
+#navigation a:visited {    
+    color: black;
+}
+
