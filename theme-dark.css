@@ -5,16 +5,13 @@ body {
     background-color: #373737;
 }
 
-header {      
-    border-bottom: 1px solid #66ccff;
-}
-
 #navigation a:hover {
-    color: #66ccff !important;
+    
+    background-color: rgba(102, 204, 255, 0.15);
 }
 
 #navigation a:active {
-    color: #006699 !important;
+    color: #66ccff !important;
 }
 
 #navigation a:visited {    

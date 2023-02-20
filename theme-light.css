@@ -1,11 +1,7 @@
                      /*         HEADER          */
 
-header {      
-    border-bottom: 1px solid black;
-}
-
 #navigation a:hover {
-    color: #66ccff !important;
+    color: rgba(102, 204, 255, 0.25);
 }
 
 #navigation a:active {

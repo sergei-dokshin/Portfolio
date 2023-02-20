@@ -7,16 +7,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <title>Сергей Докшин</title>
+    <title>Сергей Докшин Главная</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="" title="theme">    
+    <link rel="stylesheet" href="" title="theme">
+    <script src="wallpaper.js"></script>        
 </head>
 <body>
     <header>
         <nav>
             <div id="navigation">                
-                <a href="#" class="link link1" id="about">Обо мне</a>
-                <a href="#" class="link link2">Образование</a>
+                <a href="#" class="link link1" id="about">Главная</a>
+                <a href="#" class="link link2">Проекты</a>
                 <a href="#" class="link link3">Контакты</a>
                 <label for="darktheme" class="switcher">
                     <input type="checkbox" name="darktheme" id="darktheme" title="Тёмная тема вкл/выкл">
@@ -26,19 +27,21 @@
             </div>
         </nav>
     </header>
-    
+    <script src="darktheme.js" async></script>
     <main>
-        <h1>Сергей Докшин</h1>
-        <div class="photo_self">
-            <img src="./images/myself.jpg" alt="Photo Sergey Dokshin">
+        <div id="wallpaper">
+            <h1 id="myName">Сергей Докшин</h1>
+            <div class="photo_self">
+                <img src="./images/photo_2023-02-18_17-33-57.jpg" alt="Photo Sergey Dokshin">
+            </div>
+            <div class="chapter self">                
+                <p>
+                    Hello World! Меня зовут Сергей Докшин, <br>
+                     я начинающий Front-End разработчик. Эту профессию я осваивал с большим интересом и готов развиваться дальше.                                
+                </p>
+            </div>
         </div>
-        <div class="chapter">
-            <h2 class="light1">Обо мне</h2>
-            <p>
-                Место жительства: Анапа, Краснодарский край.
-                Дата рождения 12 июня 1991г.(31 год).
-            </p>
-        </div>
+        <div class="out-wallpaper">
         <div class="chapter">
             <h2 class="light2">Образование</h2>
             <ul>
@@ -52,30 +55,22 @@
                 <li>Обучение в M.L.S International College, Bournemouth, UK, по программе «General English and English for Aviation», июнь 2019</li>
             </ul>
         </div>
-        <div class="chapter">
-            <h2 class="light3">Контакты</h2>
-            <div class="contacts">
-                <div class="connect">
-                    <div></div>
-                    <div></div>
-                    <div>Phone</div>
-                    <p>+7-900-2613-009</p>
-                </div>
-                <div class="connect">
-                    <div>E-mail</div>
-                    <p>sergeidokshin91@gmail.com</p>
-                </div>
-                <div class="connect">
-                    <div>GitHub</div>
-                    <p>https://github.com/sergei-dokshin</p>
-                </div>
+        <div>            
+            <input type="text" value="sergeidokshin91@gmail.com" id="inputField">
+            <div class="mail"> 
+                <span id="popup">Скопировано!</span>               
+                <p id="e-mail" title="Нажмите чтобы скопировать">sergeidokshin91@gmail.com</p>
+
             </div>
+            <p class="visit">Посетите страницу <a href="./contacts.html">контактов</a> для больший информации.</p>            
+        </div>
+        
         </div>
 
     </main>
     <footer>
         <p>2023</p>
-    </footer>
-    <script src="index.js"></script>
+    </footer>    
+    <script src="main.js"></script>    
 </body>
 </html>
